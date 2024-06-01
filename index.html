@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div id="calculator-container">
+        <input type="text">
+
+        <button class="reset" onclick="calculation('reset')">C</button>
+        <button class="plus-minus" onclick="calculation('plus-minus')">+/-</button>
+        <button class="per" onclick="calculation('per')">%</button>
+        <button class="divission" onclick="calculation('divission')">&#xF7;</button>
+        <br>
+        <button onclick="calculation('7')">7</button>
+        <button onclick="calculation('8')">8</button>
+        <button onclick="calculation('9')">9</button>
+        <button class="multiplication" onclick="calculation('x')">&times;</button>
+        <br>
+        <button onclick="calculation('4')">4</button>
+        <button onclick="calculation('5')">5</button>
+        <button onclick="calculation('6')">6</button>
+        <button class="minus" onclick="calculation('minus')">-</button>
+        <br>
+        <button onclick="calculation('1')">1</button>
+        <button onclick="calculation('2')">2</button>
+        <button onclick="calculation('3')">3</button>
+        <button class="plus" onclick="calculation('plus')">+</button>
+        <br>
+        <button class="zero" onclick="calculation('0')">0</button>
+        <button onclick="calculation('dot')">.</button>
+        <button class="equal" onclick="calculation('equal')">=</button>
+        <br>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
